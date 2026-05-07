@@ -10,17 +10,17 @@ import (
 	"slices"
 	"time"
 
+	"github.com/fil-forge/go-libstoracha/piece/piece"
+	"github.com/fil-forge/go-ucanto/core/ipld"
+	"github.com/fil-forge/go-ucanto/core/schema"
+	"github.com/fil-forge/go-ucanto/core/schema/options"
+	"github.com/fil-forge/go-ucanto/did"
 	"github.com/filecoin-project/go-data-segment/merkletree"
 	"github.com/ipfs/go-cid"
 	"github.com/ipld/go-ipld-prime/datamodel"
 	cidlink "github.com/ipld/go-ipld-prime/linking/cid"
 	"github.com/ipld/go-ipld-prime/node/bindnode"
 	"github.com/multiformats/go-multiaddr"
-	"github.com/storacha/go-libstoracha/piece/piece"
-	"github.com/storacha/go-ucanto/core/ipld"
-	"github.com/storacha/go-ucanto/core/schema"
-	"github.com/storacha/go-ucanto/core/schema/options"
-	"github.com/storacha/go-ucanto/did"
 )
 
 var (

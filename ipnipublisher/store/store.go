@@ -11,6 +11,9 @@ import (
 	"path/filepath"
 	"sync"
 
+	"github.com/fil-forge/go-ucanto/core/ipld/block"
+	"github.com/fil-forge/go-ucanto/core/ipld/codec/json"
+	"github.com/fil-forge/go-ucanto/core/ipld/hash/sha256"
 	"github.com/ipfs/go-cid"
 	"github.com/ipfs/go-datastore"
 	"github.com/ipfs/go-datastore/namespace"
@@ -25,9 +28,6 @@ import (
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/multiformats/go-multibase"
 	"github.com/multiformats/go-multihash"
-	"github.com/storacha/go-ucanto/core/ipld/block"
-	"github.com/storacha/go-ucanto/core/ipld/codec/json"
-	"github.com/storacha/go-ucanto/core/ipld/hash/sha256"
 )
 
 var log = logging.Logger("store")

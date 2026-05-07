@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"iter"
 
+	"github.com/fil-forge/go-libstoracha/ipnipublisher/store"
 	logging "github.com/ipfs/go-log/v2"
 	"github.com/ipld/go-ipld-prime"
 	"github.com/ipni/go-libipni/metadata"
@@ -12,7 +13,6 @@ import (
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/multiformats/go-multiaddr"
 	mh "github.com/multiformats/go-multihash"
-	"github.com/storacha/go-libstoracha/ipnipublisher/store"
 )
 
 var log = logging.Logger("publisher")

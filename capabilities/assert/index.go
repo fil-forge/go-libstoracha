@@ -1,11 +1,11 @@
 package assert
 
 import (
+	"github.com/fil-forge/go-libstoracha/capabilities/types"
+	"github.com/fil-forge/go-ucanto/core/ipld"
+	"github.com/fil-forge/go-ucanto/core/schema"
+	"github.com/fil-forge/go-ucanto/validator"
 	"github.com/ipld/go-ipld-prime/datamodel"
-	"github.com/storacha/go-libstoracha/capabilities/types"
-	"github.com/storacha/go-ucanto/core/ipld"
-	"github.com/storacha/go-ucanto/core/schema"
-	"github.com/storacha/go-ucanto/validator"
 )
 
 // IndexAbility claims that a content graph can be found in blob(s) that are

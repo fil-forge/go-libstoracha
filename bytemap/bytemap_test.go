@@ -3,8 +3,8 @@ package bytemap_test
 import (
 	"testing"
 
+	"github.com/fil-forge/go-libstoracha/bytemap"
 	"github.com/multiformats/go-multihash"
-	"github.com/storacha/go-libstoracha/bytemap"
 	"github.com/stretchr/testify/require"
 )
 

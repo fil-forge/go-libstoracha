@@ -3,9 +3,9 @@ package access_test
 import (
 	"testing"
 
-	"github.com/storacha/go-libstoracha/capabilities/access"
-	"github.com/storacha/go-libstoracha/testutil"
-	"github.com/storacha/go-ucanto/ucan"
+	"github.com/fil-forge/go-libstoracha/capabilities/access"
+	"github.com/fil-forge/go-libstoracha/testutil"
+	"github.com/fil-forge/go-ucanto/ucan"
 	"github.com/stretchr/testify/require"
 )
 

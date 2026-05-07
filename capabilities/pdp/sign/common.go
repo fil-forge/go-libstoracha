@@ -2,8 +2,8 @@ package sign
 
 import (
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/storacha/go-ucanto/core/ipld"
-	"github.com/storacha/go-ucanto/core/schema"
+	"github.com/fil-forge/go-ucanto/core/ipld"
+	"github.com/fil-forge/go-ucanto/core/schema"
 )
 
 type Metadata struct {

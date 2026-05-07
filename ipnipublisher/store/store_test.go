@@ -7,6 +7,7 @@ import (
 	"io"
 	"testing"
 
+	"github.com/fil-forge/go-libstoracha/ipnipublisher/store"
 	"github.com/ipfs/go-datastore"
 	"github.com/ipld/go-ipld-prime"
 	"github.com/ipld/go-ipld-prime/codec/dagcbor"
@@ -16,7 +17,6 @@ import (
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/multiformats/go-multicodec"
 	"github.com/multiformats/go-varint"
-	"github.com/storacha/go-libstoracha/ipnipublisher/store"
 	"github.com/stretchr/testify/require"
 )
 

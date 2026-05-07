@@ -4,6 +4,8 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/fil-forge/go-libstoracha/ipnipublisher/store"
+	"github.com/fil-forge/go-ucanto/core/ipld"
 	cidlink "github.com/ipld/go-ipld-prime/linking/cid"
 	"github.com/ipni/go-libipni/announce"
 	"github.com/ipni/go-libipni/announce/httpsender"
@@ -11,8 +13,6 @@ import (
 	"github.com/ipni/go-libipni/ingest/schema"
 	"github.com/libp2p/go-libp2p/core/crypto"
 	"github.com/libp2p/go-libp2p/core/peer"
-	"github.com/storacha/go-libstoracha/ipnipublisher/store"
-	"github.com/storacha/go-ucanto/core/ipld"
 )
 
 type AdvertisementPublisher struct {

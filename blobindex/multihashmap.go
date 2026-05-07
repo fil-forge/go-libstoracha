@@ -1,8 +1,8 @@
 package blobindex
 
 import (
+	"github.com/fil-forge/go-libstoracha/bytemap"
 	mh "github.com/multiformats/go-multihash"
-	"github.com/storacha/go-libstoracha/bytemap"
 )
 
 // NewMultihashMap returns a new map of multihash to a data type

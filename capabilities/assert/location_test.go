@@ -5,11 +5,11 @@ import (
 	"net/url"
 	"testing"
 
+	"github.com/fil-forge/go-libstoracha/capabilities/assert"
+	"github.com/fil-forge/go-libstoracha/capabilities/types"
+	"github.com/fil-forge/go-libstoracha/testutil"
 	"github.com/ipld/go-ipld-prime/codec/dagjson"
 	basicnode "github.com/ipld/go-ipld-prime/node/basic"
-	"github.com/storacha/go-libstoracha/capabilities/assert"
-	"github.com/storacha/go-libstoracha/capabilities/types"
-	"github.com/storacha/go-libstoracha/testutil"
 	"github.com/stretchr/testify/require"
 )
 

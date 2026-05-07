@@ -4,9 +4,9 @@ import (
 	"io"
 	"iter"
 
+	dm "github.com/fil-forge/go-libstoracha/blobindex/datamodel"
+	"github.com/fil-forge/go-ucanto/core/ipld"
 	mh "github.com/multiformats/go-multihash"
-	dm "github.com/storacha/go-libstoracha/blobindex/datamodel"
-	"github.com/storacha/go-ucanto/core/ipld"
 )
 
 // MultihashMap is a generic for mapping multihashes to arbitrary data types

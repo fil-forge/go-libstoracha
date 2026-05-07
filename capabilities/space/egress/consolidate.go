@@ -3,14 +3,14 @@ package egress
 import (
 	"fmt"
 
+	captypes "github.com/fil-forge/go-libstoracha/capabilities/types"
+	"github.com/fil-forge/go-ucanto/core/ipld"
+	"github.com/fil-forge/go-ucanto/core/receipt"
+	"github.com/fil-forge/go-ucanto/core/result/failure"
+	"github.com/fil-forge/go-ucanto/core/schema"
+	"github.com/fil-forge/go-ucanto/ucan"
+	"github.com/fil-forge/go-ucanto/validator"
 	"github.com/ipld/go-ipld-prime/datamodel"
-	captypes "github.com/storacha/go-libstoracha/capabilities/types"
-	"github.com/storacha/go-ucanto/core/ipld"
-	"github.com/storacha/go-ucanto/core/receipt"
-	"github.com/storacha/go-ucanto/core/result/failure"
-	"github.com/storacha/go-ucanto/core/schema"
-	"github.com/storacha/go-ucanto/ucan"
-	"github.com/storacha/go-ucanto/validator"
 )
 
 const ConsolidateAbility = "space/egress/consolidate"

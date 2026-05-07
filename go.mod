@@ -1,4 +1,4 @@
-module github.com/storacha/go-libstoracha
+module github.com/fil-forge/go-libstoracha
 
 go 1.25.3
 
@@ -8,6 +8,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/s3 v1.88.4
 	github.com/aws/aws-sdk-go-v2/service/sqs v1.42.8
 	github.com/ethereum/go-ethereum v1.16.7
+	github.com/fil-forge/go-ucanto v0.0.0-20260507172450-5cb5d073f8ab
 	github.com/filecoin-project/go-data-segment v0.0.1
 	github.com/filecoin-project/go-fil-commcid v0.2.0
 	github.com/filecoin-project/go-fil-commp-hashhash v0.2.0
@@ -25,7 +26,6 @@ require (
 	github.com/multiformats/go-multihash v0.2.3
 	github.com/multiformats/go-varint v0.1.0
 	github.com/patrickmn/go-cache v2.1.0+incompatible
-	github.com/storacha/go-ucanto v0.6.5
 	github.com/stretchr/testify v1.11.1
 	github.com/whyrusleeping/cbor-gen v0.3.1
 	golang.org/x/xerrors v0.0.0-20240903120638-7835f813f4da

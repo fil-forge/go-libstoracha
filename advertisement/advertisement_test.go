@@ -4,16 +4,16 @@ import (
 	"net/url"
 	"testing"
 
+	"github.com/fil-forge/go-libstoracha/advertisement"
+	"github.com/fil-forge/go-libstoracha/capabilities/assert"
+	"github.com/fil-forge/go-libstoracha/capabilities/types"
+	"github.com/fil-forge/go-libstoracha/digestutil"
+	"github.com/fil-forge/go-libstoracha/testutil"
 	"github.com/ipfs/go-cid"
 	cidlink "github.com/ipld/go-ipld-prime/linking/cid"
 	"github.com/ipni/go-libipni/maurl"
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/multiformats/go-multiaddr"
-	"github.com/storacha/go-libstoracha/advertisement"
-	"github.com/storacha/go-libstoracha/capabilities/assert"
-	"github.com/storacha/go-libstoracha/capabilities/types"
-	"github.com/storacha/go-libstoracha/digestutil"
-	"github.com/storacha/go-libstoracha/testutil"
 )
 
 func TestShardCID(t *testing.T) {

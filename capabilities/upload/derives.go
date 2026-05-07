@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/storacha/go-ucanto/core/ipld"
-	"github.com/storacha/go-ucanto/core/result/failure"
-	"github.com/storacha/go-ucanto/core/schema"
+	"github.com/fil-forge/go-ucanto/core/ipld"
+	"github.com/fil-forge/go-ucanto/core/result/failure"
+	"github.com/fil-forge/go-ucanto/core/schema"
 )
 
 func validateSpaceDID(did string) failure.Failure {

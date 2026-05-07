@@ -6,12 +6,12 @@ import (
 	"fmt"
 	"iter"
 
+	"github.com/fil-forge/go-libstoracha/ipnipublisher/store"
 	"github.com/ipni/go-libipni/ingest/schema"
 	"github.com/ipni/go-libipni/metadata"
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/multiformats/go-multiaddr"
 	mh "github.com/multiformats/go-multihash"
-	"github.com/storacha/go-libstoracha/ipnipublisher/store"
 )
 
 // GenerateAd generates an advertisement for the given parameters.

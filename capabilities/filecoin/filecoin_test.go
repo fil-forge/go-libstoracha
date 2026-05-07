@@ -3,7 +3,7 @@ package filecoin_test
 import (
 	"testing"
 
-	"github.com/storacha/go-libstoracha/capabilities/filecoin"
+	"github.com/fil-forge/go-libstoracha/capabilities/filecoin"
 	"github.com/stretchr/testify/require"
 )
 

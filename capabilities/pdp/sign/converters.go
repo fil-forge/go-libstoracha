@@ -4,9 +4,9 @@ import (
 	"errors"
 
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/fil-forge/go-libstoracha/capabilities/types"
+	"github.com/fil-forge/go-ucanto/core/schema/options"
 	"github.com/ipld/go-ipld-prime/node/bindnode"
-	"github.com/storacha/go-libstoracha/capabilities/types"
-	"github.com/storacha/go-ucanto/core/schema/options"
 )
 
 var (

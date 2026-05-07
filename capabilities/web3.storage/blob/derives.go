@@ -4,11 +4,11 @@ import (
 	"bytes"
 	"fmt"
 
+	"github.com/fil-forge/go-libstoracha/capabilities/types"
+	"github.com/fil-forge/go-ucanto/core/result/failure"
+	"github.com/fil-forge/go-ucanto/core/schema"
+	"github.com/fil-forge/go-ucanto/ucan"
 	"github.com/multiformats/go-multibase"
-	"github.com/storacha/go-libstoracha/capabilities/types"
-	"github.com/storacha/go-ucanto/core/result/failure"
-	"github.com/storacha/go-ucanto/core/schema"
-	"github.com/storacha/go-ucanto/ucan"
 )
 
 func equalWith(claimed, delegated ucan.Resource) failure.Failure {

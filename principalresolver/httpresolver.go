@@ -10,10 +10,10 @@ import (
 	"strings"
 	"time"
 
+	"github.com/fil-forge/go-ucanto/did"
+	"github.com/fil-forge/go-ucanto/validator"
 	"github.com/gobwas/glob"
 	logging "github.com/ipfs/go-log/v2"
-	"github.com/storacha/go-ucanto/did"
-	"github.com/storacha/go-ucanto/validator"
 )
 
 var log = logging.Logger("principal-resolver")

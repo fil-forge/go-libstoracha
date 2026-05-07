@@ -11,10 +11,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/storacha/go-ucanto/did"
+	"github.com/fil-forge/go-ucanto/did"
 	"github.com/stretchr/testify/require"
 
-	"github.com/storacha/go-libstoracha/principalresolver"
+	"github.com/fil-forge/go-libstoracha/principalresolver"
 )
 
 func TestNewHTTPResolver(t *testing.T) {

@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"log"
 
+	"github.com/fil-forge/go-libstoracha/ipnipublisher/notifier"
+	"github.com/fil-forge/go-libstoracha/ipnipublisher/publisher"
+	"github.com/fil-forge/go-libstoracha/ipnipublisher/server"
+	"github.com/fil-forge/go-libstoracha/ipnipublisher/store"
 	"github.com/ipfs/go-datastore"
 	"github.com/ipfs/go-datastore/namespace"
 	"github.com/ipld/go-ipld-prime"
 	"github.com/libp2p/go-libp2p/core/crypto"
-	"github.com/storacha/go-libstoracha/ipnipublisher/notifier"
-	"github.com/storacha/go-libstoracha/ipnipublisher/publisher"
-	"github.com/storacha/go-libstoracha/ipnipublisher/server"
-	"github.com/storacha/go-libstoracha/ipnipublisher/store"
 )
 
 var ipniNamespace = datastore.NewKey("ipni/")

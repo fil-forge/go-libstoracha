@@ -5,11 +5,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/fil-forge/go-libstoracha/capabilities/account/egress"
+	"github.com/fil-forge/go-libstoracha/testutil"
+	"github.com/fil-forge/go-ucanto/did"
 	"github.com/ipld/go-ipld-prime/codec/dagcbor"
 	basicnode "github.com/ipld/go-ipld-prime/node/basic"
-	"github.com/storacha/go-libstoracha/capabilities/account/egress"
-	"github.com/storacha/go-libstoracha/testutil"
-	"github.com/storacha/go-ucanto/did"
 
 	"github.com/stretchr/testify/require"
 )

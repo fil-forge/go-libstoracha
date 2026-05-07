@@ -3,9 +3,9 @@ package pdp_test
 import (
 	"testing"
 
+	"github.com/fil-forge/go-libstoracha/capabilities/pdp"
+	"github.com/fil-forge/go-libstoracha/testutil"
 	"github.com/filecoin-project/go-data-segment/merkletree"
-	"github.com/storacha/go-libstoracha/capabilities/pdp"
-	"github.com/storacha/go-libstoracha/testutil"
 	"github.com/stretchr/testify/require"
 )
 

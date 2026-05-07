@@ -5,6 +5,8 @@ import (
 	_ "embed"
 	"fmt"
 
+	"github.com/fil-forge/go-ucanto/core/result/failure"
+	"github.com/fil-forge/go-ucanto/core/schema"
 	"github.com/ipld/go-ipld-prime"
 	"github.com/ipld/go-ipld-prime/datamodel"
 	"github.com/ipld/go-ipld-prime/fluent/qp"
@@ -12,8 +14,6 @@ import (
 	"github.com/ipld/go-ipld-prime/node/basicnode"
 	ipldschema "github.com/ipld/go-ipld-prime/schema"
 	mh "github.com/multiformats/go-multihash"
-	"github.com/storacha/go-ucanto/core/result/failure"
-	"github.com/storacha/go-ucanto/core/schema"
 )
 
 //go:embed types.ipldsch
