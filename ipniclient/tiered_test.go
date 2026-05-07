@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/fil-forge/go-libstoracha/ipniclient"
+	"github.com/fil-forge/go-libstoracha/testutil"
 	ipnifind "github.com/ipni/go-libipni/find/client"
 	"github.com/ipni/go-libipni/find/model"
 	"github.com/multiformats/go-multihash"
-	"github.com/storacha/go-libstoracha/ipniclient"
-	"github.com/storacha/go-libstoracha/testutil"
 	"github.com/stretchr/testify/require"
 )
 

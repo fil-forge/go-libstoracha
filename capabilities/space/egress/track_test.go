@@ -4,8 +4,8 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/storacha/go-libstoracha/capabilities/space/egress"
-	"github.com/storacha/go-libstoracha/testutil"
+	"github.com/fil-forge/go-libstoracha/capabilities/space/egress"
+	"github.com/fil-forge/go-libstoracha/testutil"
 
 	"github.com/stretchr/testify/require"
 )

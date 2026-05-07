@@ -3,10 +3,10 @@ package blobindex
 import (
 	"bytes"
 
+	"github.com/fil-forge/go-ucanto/core/car"
+	"github.com/fil-forge/go-ucanto/core/ipld"
 	cidlink "github.com/ipld/go-ipld-prime/linking/cid"
 	mh "github.com/multiformats/go-multihash"
-	"github.com/storacha/go-ucanto/core/car"
-	"github.com/storacha/go-ucanto/core/ipld"
 )
 
 // FromShardArchives creates a sharded DAG index by indexing blocks in the passed CAR shards.

@@ -4,8 +4,8 @@ import (
 	_ "embed"
 	"fmt"
 
+	captypes "github.com/fil-forge/go-libstoracha/capabilities/types"
 	"github.com/ipld/go-ipld-prime/schema"
-	captypes "github.com/storacha/go-libstoracha/capabilities/types"
 )
 
 //go:embed egress.ipldsch

@@ -3,9 +3,9 @@ package digest
 import (
 	"fmt"
 
+	"github.com/fil-forge/go-libstoracha/piece/size"
 	"github.com/multiformats/go-multihash"
 	"github.com/multiformats/go-varint"
-	"github.com/storacha/go-libstoracha/piece/size"
 )
 
 const FR32_SHA256_TRUNC254_PADDED_BINARY_TREE_CODE = 0x1011

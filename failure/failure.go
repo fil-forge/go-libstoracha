@@ -11,11 +11,11 @@ import (
 	_ "embed"
 	"fmt"
 
+	ucanipld "github.com/fil-forge/go-ucanto/core/ipld"
+	ucantofailure "github.com/fil-forge/go-ucanto/core/result/failure"
 	"github.com/ipld/go-ipld-prime"
 	"github.com/ipld/go-ipld-prime/datamodel"
 	"github.com/ipld/go-ipld-prime/schema"
-	ucanipld "github.com/storacha/go-ucanto/core/ipld"
-	ucantofailure "github.com/storacha/go-ucanto/core/result/failure"
 )
 
 //go:embed failure.ipldsch

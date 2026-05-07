@@ -4,13 +4,13 @@ import (
 	"testing"
 	"time"
 
+	"github.com/fil-forge/go-ucanto/core/ipld"
 	"github.com/ipfs/go-cid"
 	cidlink "github.com/ipld/go-ipld-prime/linking/cid"
-	"github.com/storacha/go-ucanto/core/ipld"
 	"github.com/stretchr/testify/require"
 
-	"github.com/storacha/go-libstoracha/capabilities/upload"
-	"github.com/storacha/go-libstoracha/testutil"
+	"github.com/fil-forge/go-libstoracha/capabilities/upload"
+	"github.com/fil-forge/go-libstoracha/testutil"
 )
 
 func TestGetCapability(t *testing.T) {

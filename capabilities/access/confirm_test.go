@@ -3,12 +3,12 @@ package access_test
 import (
 	"testing"
 
+	"github.com/fil-forge/go-libstoracha/capabilities/access"
+	"github.com/fil-forge/go-libstoracha/testutil"
+	"github.com/fil-forge/go-ucanto/core/ipld/codec/cbor"
+	"github.com/fil-forge/go-ucanto/did"
+	"github.com/fil-forge/go-ucanto/ucan"
 	"github.com/ipfs/go-cid"
-	"github.com/storacha/go-libstoracha/capabilities/access"
-	"github.com/storacha/go-libstoracha/testutil"
-	"github.com/storacha/go-ucanto/core/ipld/codec/cbor"
-	"github.com/storacha/go-ucanto/did"
-	"github.com/storacha/go-ucanto/ucan"
 	"github.com/stretchr/testify/require"
 )
 

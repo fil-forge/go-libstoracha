@@ -3,8 +3,8 @@ package blobindex_test
 import (
 	"testing"
 
-	"github.com/storacha/go-libstoracha/blobindex"
-	"github.com/storacha/go-libstoracha/testutil"
+	"github.com/fil-forge/go-libstoracha/blobindex"
+	"github.com/fil-forge/go-libstoracha/testutil"
 	"github.com/stretchr/testify/require"
 )
 

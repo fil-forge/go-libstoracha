@@ -3,9 +3,9 @@ package metadata_test
 import (
 	"testing"
 
+	"github.com/fil-forge/go-libstoracha/metadata"
+	"github.com/fil-forge/go-libstoracha/testutil"
 	cidlink "github.com/ipld/go-ipld-prime/linking/cid"
-	"github.com/storacha/go-libstoracha/metadata"
-	"github.com/storacha/go-libstoracha/testutil"
 	"github.com/stretchr/testify/require"
 )
 

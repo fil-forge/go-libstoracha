@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/fil-forge/go-libstoracha/jobqueue"
 	logging "github.com/ipfs/go-log/v2"
-	"github.com/storacha/go-libstoracha/jobqueue"
 )
 
 const (

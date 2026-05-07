@@ -8,11 +8,11 @@ import (
 	"slices"
 
 	"github.com/aws/aws-sdk-go-v2/aws"
+	"github.com/fil-forge/go-libstoracha/awsutils"
+	"github.com/fil-forge/go-libstoracha/ipnipublisher/queue"
+	"github.com/fil-forge/go-libstoracha/metadata"
 	"github.com/ipni/go-libipni/find/model"
 	mh "github.com/multiformats/go-multihash"
-	"github.com/storacha/go-libstoracha/awsutils"
-	"github.com/storacha/go-libstoracha/ipnipublisher/queue"
-	"github.com/storacha/go-libstoracha/metadata"
 )
 
 // SQSPublishingQueue implements the a queue for publishing jobs on SQS

@@ -3,7 +3,7 @@ package upload_test
 import (
 	"testing"
 
-	"github.com/storacha/go-libstoracha/capabilities/upload"
+	"github.com/fil-forge/go-libstoracha/capabilities/upload"
 	"github.com/stretchr/testify/require"
 )
 

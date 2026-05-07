@@ -4,13 +4,13 @@ import (
 	"encoding/json"
 	"errors"
 
+	"github.com/fil-forge/go-libstoracha/piece/digest"
+	"github.com/fil-forge/go-libstoracha/piece/size"
 	commcid "github.com/filecoin-project/go-fil-commcid"
 	"github.com/ipfs/go-cid"
 	"github.com/ipld/go-ipld-prime"
 	"github.com/ipld/go-ipld-prime/datamodel"
 	cidlink "github.com/ipld/go-ipld-prime/linking/cid"
-	"github.com/storacha/go-libstoracha/piece/digest"
-	"github.com/storacha/go-libstoracha/piece/size"
 )
 
 var ErrWrongLinkType = errors.New("must be a cid link")

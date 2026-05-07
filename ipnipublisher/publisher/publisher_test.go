@@ -11,11 +11,11 @@ import (
 	"sort"
 	"testing"
 
+	"github.com/fil-forge/go-libstoracha/ipnipublisher/publisher"
+	"github.com/fil-forge/go-libstoracha/ipnipublisher/store"
+	"github.com/fil-forge/go-libstoracha/testutil"
 	"github.com/ipfs/go-datastore"
 	dssync "github.com/ipfs/go-datastore/sync"
-	"github.com/storacha/go-libstoracha/ipnipublisher/publisher"
-	"github.com/storacha/go-libstoracha/ipnipublisher/store"
-	"github.com/storacha/go-libstoracha/testutil"
 
 	"github.com/ipld/go-ipld-prime"
 	"github.com/ipni/go-libipni/metadata"

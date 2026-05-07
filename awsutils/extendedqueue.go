@@ -11,8 +11,8 @@ import (
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/service/s3"
 	"github.com/aws/aws-sdk-go-v2/service/sqs"
+	"github.com/fil-forge/go-libstoracha/queuepoller"
 	"github.com/google/uuid"
-	"github.com/storacha/go-libstoracha/queuepoller"
 )
 
 // queueMessage is the struct that is serialized onto an SQS message queue in JSON

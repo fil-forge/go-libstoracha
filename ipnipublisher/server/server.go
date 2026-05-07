@@ -6,9 +6,9 @@ import (
 	"path"
 	"strings"
 
+	"github.com/fil-forge/go-libstoracha/ipnipublisher/store"
 	"github.com/ipfs/go-cid"
 	cidlink "github.com/ipld/go-ipld-prime/linking/cid"
-	"github.com/storacha/go-libstoracha/ipnipublisher/store"
 )
 
 const (

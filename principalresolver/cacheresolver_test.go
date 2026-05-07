@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/storacha/go-ucanto/did"
-	"github.com/storacha/go-ucanto/validator"
+	"github.com/fil-forge/go-ucanto/did"
+	"github.com/fil-forge/go-ucanto/validator"
 	"github.com/stretchr/testify/require"
 
-	"github.com/storacha/go-libstoracha/principalresolver"
+	"github.com/fil-forge/go-libstoracha/principalresolver"
 )
 
 var _ validator.PrincipalResolver = (*mockResolver)(nil)

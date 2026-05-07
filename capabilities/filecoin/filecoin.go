@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/fil-forge/go-libstoracha/capabilities/types"
+	"github.com/fil-forge/go-ucanto/core/result/failure"
+	"github.com/fil-forge/go-ucanto/core/schema"
+	"github.com/fil-forge/go-ucanto/ucan"
+	"github.com/fil-forge/go-ucanto/validator"
 	"github.com/ipld/go-ipld-prime"
-	"github.com/storacha/go-libstoracha/capabilities/types"
-	"github.com/storacha/go-ucanto/core/result/failure"
-	"github.com/storacha/go-ucanto/core/schema"
-	"github.com/storacha/go-ucanto/ucan"
-	"github.com/storacha/go-ucanto/validator"
 )
 
 const FilecoinAbility = "filecoin/*"

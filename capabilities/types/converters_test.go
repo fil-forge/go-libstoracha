@@ -5,10 +5,10 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/fil-forge/go-libstoracha/capabilities/types"
 	"github.com/ipld/go-ipld-prime"
 	"github.com/ipld/go-ipld-prime/codec/dagjson"
 	"github.com/ipld/go-ipld-prime/schema"
-	"github.com/storacha/go-libstoracha/capabilities/types"
 	"github.com/stretchr/testify/require"
 )
 

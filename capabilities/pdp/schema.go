@@ -5,8 +5,8 @@ import (
 	_ "embed"
 	"fmt"
 
+	"github.com/fil-forge/go-libstoracha/capabilities/types"
 	ipldschema "github.com/ipld/go-ipld-prime/schema"
-	"github.com/storacha/go-libstoracha/capabilities/types"
 )
 
 //go:embed pdp.ipldsch
