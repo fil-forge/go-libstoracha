@@ -1,6 +1,6 @@
 module github.com/fil-forge/go-libstoracha
 
-go 1.25.3
+go 1.25.7
 
 require (
 	github.com/aws/aws-sdk-go v1.55.7
@@ -17,7 +17,7 @@ require (
 	github.com/ipfs/go-cid v0.6.2
 	github.com/ipfs/go-datastore v0.9.1
 	github.com/ipfs/go-log/v2 v2.9.1
-	github.com/ipld/go-ipld-prime v0.22.0
+	github.com/ipld/go-ipld-prime v0.24.0
 	github.com/ipni/go-libipni v0.7.5
 	github.com/libp2p/go-libp2p v0.47.0
 	github.com/multiformats/go-multiaddr v0.16.1
@@ -82,7 +82,7 @@ require (
 	github.com/opentracing/opentracing-go v1.2.0 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
-	github.com/polydawn/refmt v0.89.1-0.20231129105047-37766d95467a // indirect
+	github.com/polydawn/refmt v0.90.0 // indirect
 	github.com/spaolacci/murmur3 v1.1.0 // indirect
 	github.com/ucan-wg/go-ucan v0.0.0-20240916120445-37f52863156c // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
