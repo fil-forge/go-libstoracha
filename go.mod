@@ -15,7 +15,7 @@ require (
 	github.com/gobwas/glob v0.2.3
 	github.com/google/uuid v1.6.0
 	github.com/ipfs/go-cid v0.6.2
-	github.com/ipfs/go-datastore v0.9.1
+	github.com/ipfs/go-datastore v0.9.2
 	github.com/ipfs/go-log/v2 v2.9.1
 	github.com/ipld/go-ipld-prime v0.24.0
 	github.com/ipni/go-libipni v0.7.5
@@ -86,9 +86,9 @@ require (
 	github.com/spaolacci/murmur3 v1.1.0 // indirect
 	github.com/ucan-wg/go-ucan v0.0.0-20240916120445-37f52863156c // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
-	go.opentelemetry.io/otel v1.41.0 // indirect
-	go.opentelemetry.io/otel/metric v1.41.0 // indirect
-	go.opentelemetry.io/otel/trace v1.41.0 // indirect
+	go.opentelemetry.io/otel v1.44.0 // indirect
+	go.opentelemetry.io/otel/metric v1.44.0 // indirect
+	go.opentelemetry.io/otel/trace v1.44.0 // indirect
 	go.uber.org/atomic v1.11.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.27.1 // indirect
