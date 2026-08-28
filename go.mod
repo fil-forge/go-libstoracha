@@ -4,7 +4,7 @@ go 1.25.7
 
 require (
 	github.com/aws/aws-sdk-go v1.55.7
-	github.com/aws/aws-sdk-go-v2 v1.43.6
+	github.com/aws/aws-sdk-go-v2 v1.43.7
 	github.com/aws/aws-sdk-go-v2/service/s3 v1.107.2
 	github.com/aws/aws-sdk-go-v2/service/sqs v1.46.6
 	github.com/ethereum/go-ethereum v1.17.5
