@@ -7,7 +7,7 @@ require (
 	github.com/aws/aws-sdk-go-v2 v1.47.1
 	github.com/aws/aws-sdk-go-v2/service/s3 v1.113.4
 	github.com/aws/aws-sdk-go-v2/service/sqs v1.52.1
-	github.com/ethereum/go-ethereum v1.17.6
+	github.com/ethereum/go-ethereum v1.17.7
 	github.com/fil-forge/go-ucanto v0.0.0-20260507172450-5cb5d073f8ab
 	github.com/filecoin-project/go-data-segment v0.0.1
 	github.com/filecoin-project/go-fil-commcid v0.3.1
