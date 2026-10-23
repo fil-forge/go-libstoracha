@@ -25,8 +25,8 @@ github.com/aws/aws-sdk-go-v2/service/internal/s3shared v1.20.6 h1:mYViDr2azcgxOp
 github.com/aws/aws-sdk-go-v2/service/internal/s3shared v1.20.6/go.mod h1:OXVdAo9jNhggB+hJRGOyy7WolGTKB6Rg7IIulDeSzPM=
 github.com/aws/aws-sdk-go-v2/service/s3 v1.114.3 h1:NyeuyXkZL476uoAowNActm4XJO1QPKf7aassgXHpiqA=
 github.com/aws/aws-sdk-go-v2/service/s3 v1.114.3/go.mod h1:GfoBeKMDJecgRUsGf/0RGdx0NJAh81ObTd922h8pQys=
-github.com/aws/aws-sdk-go-v2/service/sqs v1.52.4 h1:D+Zmdt3T3P770MrqTmZvalbj6ADO7xA7n+qnNakGvrI=
-github.com/aws/aws-sdk-go-v2/service/sqs v1.52.4/go.mod h1:dUYH3ia3qEO5ogaWDLp2tjtb4u4Y9xRbae7tOr1ClIA=
+github.com/aws/aws-sdk-go-v2/service/sqs v1.52.5 h1:DKlshGKQ/7Bkj2Yww/m2tWsWGjGZJ5vcNUA64fCbfjU=
+github.com/aws/aws-sdk-go-v2/service/sqs v1.52.5/go.mod h1:dUYH3ia3qEO5ogaWDLp2tjtb4u4Y9xRbae7tOr1ClIA=
 github.com/aws/smithy-go v1.28.5 h1:OqbqKtzY9NUnr2yAe9+hiTdFb20tNaK/lI0PMOGXX9k=
 github.com/aws/smithy-go v1.28.5/go.mod h1:YE2RhdIuDbA5E5bTdciG9KrW3+TiEONeUWCqxX9i1Fc=
 github.com/benbjohnson/clock v1.3.5 h1:VvXlSJBzZpA/zum6Sj74hxwYI2DIxRWuNIoXAzHZz5o=
